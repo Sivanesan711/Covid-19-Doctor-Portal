@@ -1,0 +1,47 @@
+img
+{
+  width: 300px;
+  height: 300px;
+  border-radius: 200%;
+}
+
+.cl
+{
+  text-align: center;
+  padding-top: 2em;
+  margin-top: 0;
+  margin-right: 5%;
+  margin-bottom: 1.5em;
+}
+
+
+.social img
+{
+  width: 3em;
+  height: 3em;
+  border-radius: 200%;
+  padding-left: 1em;
+}
+
+ul li
+{
+  list-style-type: none;
+}
+
+li
+{
+  display: flex;
+  float: left;
+  align-content: flex-end;
+}
+
+.updt
+{
+  background-image: url('../../assets/78451.jpg');
+  background: cover;
+}
+
+.social ul
+{
+  background-color: aquamarine;
+}

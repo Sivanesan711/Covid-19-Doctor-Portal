@@ -1,0 +1,40 @@
+<body>
+  <form method="post" class="formcontrol" action="">
+          <td>
+            <label>DOCTOR NAME </label><br>
+              <input type="text" [(ngModel)]="newContact.Firstname">
+          </td>
+          <br>
+          <td>
+            <label>HOSPITAL NAME </label><br>
+              <input type="text" [(ngModel)]="newContact.Hospitalname">
+          </td>
+          <br>
+          <td>
+            <label>PATIENT NAME </label><br>
+            <input type="text" [(ngModel)]="newContact.Patientname">
+        </td>
+        <br>
+        <td>
+          <label>PATIENT AGE </label><br>
+          <input type="text" [(ngModel)]="newContact.Patientage">
+      </td>
+      <br>
+      <td>
+        <label>TREATMENT </label><br>
+        <textarea placeholder="ENTER YOUR TREATMENT PROCESS" [(ngModel)]="newContact.Treatment" cols="30" rows="6"></textarea>
+    </td>
+    <br>
+      <td>
+        <label>DATE </label><br>
+        <input type="text" [(ngModel)]="newContact.Day_TO_Recover" >
+    </td>
+    <br>
+    <td>
+      <button (click)="addContact(newContact)">Submit New Record</button>
+       <br>
+       <br>
+      <a href="./View">View Record</a>
+    </td>
+      </form>
+    </body>

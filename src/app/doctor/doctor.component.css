@@ -1,0 +1,65 @@
+.container {
+  padding: 50px;
+  background-color: lightblue;
+}
+
+input[type=text], textarea {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+input[type=text]:focus {
+background-color: white;
+outline: none;
+}
+div {
+          padding: 10px 0;
+          text-align: center;
+          font-weight: bold;
+          padding-left: 40%;
+       }
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+button
+{
+margin-left: 2em;
+}
+
+form
+{
+border: 1px solid darkblue;
+width: 215px;
+padding: 2em;
+padding-top: 3em;
+background-image: url('../../assets/jeev.jpg');
+text-align: center;
+margin-top: 0;
+}
+
+textarea
+{
+width: 82%;
+}
+
+.formcontrol
+{
+  margin-left: 40%;
+}
+
+label
+{
+  font-weight: bold;
+}
+
+body
+{
+  background-image: url('../../assets/66652.jpg');
+  margin-right: 0;
+  margin-left: 0;
+}

@@ -1,0 +1,27 @@
+<div class="frm">
+  <mat-card class="example-card">
+
+    <mat-card-content>
+      <ul class="contacts">
+        <div class="row">
+        <li *ngFor="let contact of contacts">
+          <div class="column">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>{{contact.Firstname}}</mat-card-title>
+              <mat-card-title>{{contact.Firstname | lowercase}}@{{contact.Hospitalname | lowercase}}.in</mat-card-title>
+            </mat-card-header>
+          <h3><span>DOCTOR:</span> {{contact.Firstname}}</h3>
+          <p><span>HOSPITAL:</span> {{contact.Hospitalname}}</p>
+          <p>PATIENT NAME: {{contact.Patientname}}</p>
+          <p>PATIENT AGE: {{contact.Patientage}}</p>
+          <P>TREATMENT: {{contact.Treatment}}</P>
+          <p>DAYS: {{contact.Days_TO_Recover}}</p>
+        </div>
+        </li>
+      </div>
+      </ul>
+    </mat-card-content>
+
+  </mat-card>
+  </div>

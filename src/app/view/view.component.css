@@ -1,0 +1,47 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('../../assets/Hospital/934429.jpg');
+  background-size: cover;
+}
+
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0.5em;
+  padding-top: 2.5em;
+  border: 1px solid;
+  padding-left: 2%;
+  margin: 0.5em;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+li
+{
+  list-style-type: none;
+  width: 350%;
+  height: 500%;
+}
+
+.mat-card-title
+{
+  font-weight: bold;
+}
+
+.row
+{
+  padding-top: 2.5em;
+}
+
+.frm
+{
+  background-color: skyblue;
+}
